@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Главная</title>
+{% endblock %}
+
+{% block body %}
+<div>
+    <form action="/" method="post">
+        <input type="text" name="animal_id" placeholder="Введите ID животного">
+        <input type="submit">
+    </form>
+</div>
+{% endblock %}
